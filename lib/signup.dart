@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:wyl/login.dart';
 
 import './buttons.dart';
-import 'buttons.dart';
-import './icons/my_flutter_app_icons.dart';
 
-
-class SignUp extends StatelessWidget {
-  void signUp() => print("Signup");
+class Login extends StatelessWidget {
+  void signUp => (print("signUp"));
   @override
   Widget build(BuildContext context) {
     return (Column(
@@ -43,7 +40,7 @@ class SignUp extends StatelessWidget {
           Colors.white,
           signUp,
           Color.fromRGBO(59, 89, 153, 0.9),
-          Icon(FontAwesomeIcons.facebook)
+          Icon(FontAwesomeIcons.facebookSquare)
         )
       ],
     ));
